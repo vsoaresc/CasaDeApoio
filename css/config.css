@@ -1,4 +1,5 @@
 :root{
-    --primary: blue;
+    --primary: #00C1D3;
+    --primary-dark: #00c1d349;
     --secondary: black;
 }
