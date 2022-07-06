@@ -54,3 +54,19 @@ body, html{
     font-size: 18px;
     text-transform: uppercase;
 }
+
+#parceiros a.link-parceiro{
+    padding: 0 15px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px var(--ligth);
+    height: 100px;
+    transition: ease-out all 0.2s;
+}
+
+#parceiros a.link-parceiro:hover{
+    transform: scale(1.2);
+    box-shadow: 0 0 15px 0 rgba(0,0,0,0.15);
+}
