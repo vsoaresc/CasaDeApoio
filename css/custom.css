@@ -12,6 +12,13 @@ body, html{
     transition: background ease .2s;
 }
 
+#header.active{
+    position: fixed;
+    background-color: #fff;
+    box-shadow: 0 0 30px 0 rgba(0,0,0,0.2);
+    z-index: 9999;
+}
+
 #header .navbar-collapse{
     width: auto;
     justify-content: end;
