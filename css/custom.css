@@ -82,3 +82,24 @@ body, html{
     filter: none;
     opacity: 1;
 }   
+
+#contato{
+    background-color: var(--primary);
+    color:#fff;
+}
+
+#contato-social-box{
+    display: flex;
+    justify-content: left;
+    border: 0px solid red;
+    width: 70%;
+    box-sizing: border-box;
+}
+
+#contato-social-box img.logo-instagram{
+    width: 30px;
+}
+#contato-social-box img.logo-facebook{
+    width: 14px;
+    margin-left: 10px;
+}
