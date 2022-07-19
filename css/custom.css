@@ -51,23 +51,27 @@ body, html{
 }
 
 #doacao{
-    background-color: var(--medium);
+    background-color: var(--ligth-clean);
 }
 
 #doacao .doacao-pix{
     padding: 1.25rem;
-    background-color: red;
+    background-color: var(--card1);
     border-radius: 30px;
+    color: #fff;
+    
 }
 #doacao .doacao-mensal{
     padding: 1.25rem;
-    background-color: blue;
+    background-color: var(--card2);
     border-radius: 30px;
+    color: #fff;
 }
 #doacao .doacao-unica{
     padding: 1.25rem;
-    background-color: green;
+    background-color: var(--card3);
     border-radius: 30px;
+    color: #fff;
 }
 
 #parceiros a.link-parceiro{
