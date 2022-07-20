@@ -6,6 +6,7 @@ body, html{
     max-width: 250px;
 }
 
+/*#region HEADER*/
 #header{
     width: 100%;
     background-color: transparent;
@@ -39,7 +40,9 @@ body, html{
     border-bottom: solid 4px var(--primary);
     color: var(--secundary);
 }
+/*#endregion */
 
+/*#region SLIDER*/
 #slider h1{
     text-transform: uppercase;
     font-weight: 700;
@@ -49,9 +52,19 @@ body, html{
     font-size: 18px;
     text-transform: uppercase;
 }
+/*#endregion */
 
+/*#region DOACAO*/
 #doacao{
     background-color: var(--ligth-clean);
+    padding-bottom: 1.50rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+#doacao .title-doacao{
+    padding-top: 1.50rem;
 }
 
 #doacao .doacao-pix{
@@ -59,14 +72,15 @@ body, html{
     background-color: var(--card1);
     border-radius: 30px;
     color: #fff;
-    
 }
+
 #doacao .doacao-mensal{
     padding: 1.25rem;
     background-color: var(--card2);
     border-radius: 30px;
     color: #fff;
 }
+
 #doacao .doacao-unica{
     padding: 1.25rem;
     background-color: var(--card3);
@@ -74,6 +88,15 @@ body, html{
     color: #fff;
 }
 
+#doacao .btn{
+    display: flexbox;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 1.25rem;
+}
+/*#endregion */
+
+/*#region PARCEIROS*/
 #parceiros a.link-parceiro{
     padding: 0 10px;
     background-color: #fff;
@@ -101,7 +124,9 @@ body, html{
     filter: none;
     opacity: 1;
 }   
+/*#endregion */
 
+/*#region CONTATO*/
 #contato{
     background-color: var(--primary);
     color:#fff;
@@ -130,7 +155,7 @@ body, html{
     width: 14px;
     margin-left: 10px;
 }
-
+/*#endregion */
 
 #rodape{
     background-color: var(--secondary-dark);
@@ -138,7 +163,7 @@ body, html{
     color: var(--ligth);
 }
 
-/*MAPS*/
+/*#region MAPS*/
 .mapouter {
     position: relative;
     text-align: right;
@@ -156,4 +181,6 @@ body, html{
 .gmap_iframe {
     height: 300px !important;
 }
-/*MAPS*/
+
+/*#endregion */
+
