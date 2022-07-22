@@ -3,7 +3,7 @@ body, html{
 }
 
 #logo-navbar{
-    max-width: 250px;
+    max-width: 200px;
 }
 
 /*#region HEADER*/
@@ -72,6 +72,11 @@ body, html{
     background-color: var(--card1);
     border-radius: 30px;
     color: #fff;
+}
+
+#doacao .qr-code{
+    max-width: 150px;
+    margin-left: 32%;
 }
 
 #doacao .doacao-mensal{
