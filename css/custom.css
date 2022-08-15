@@ -2,11 +2,11 @@ body, html{
     font-family: 'Roboto', sans-serif;
 }
 
+/*#region HEADER*/
 #logo-navbar{
     max-width: 200px;
 }
 
-/*#region HEADER*/
 #header{
     width: 100%;
     background-color: transparent;
@@ -40,6 +40,7 @@ body, html{
     border-bottom: solid 4px var(--primary);
     color: var(--secundary);
 }
+
 /*#endregion */
 
 /*#region SLIDER*/
@@ -72,6 +73,7 @@ body, html{
     background-color: var(--card1);
     border-radius: 30px;
     color: #fff;
+    height: 459px;
 }
 
 #doacao .qr-code{
@@ -84,6 +86,7 @@ body, html{
     background-color: var(--card2);
     border-radius: 30px;
     color: #fff;
+    height: 459px;
 }
 
 #doacao .doacao-unica{
@@ -91,6 +94,7 @@ body, html{
     background-color: var(--card3);
     border-radius: 30px;
     color: #fff;
+    height: 459px;
 }
 
 #doacao .btn{
@@ -109,8 +113,10 @@ body, html{
     align-items: center;
     justify-content: center;
     border: solid 1px var(--ligth);
-    height: 100px;
+    height: 100%;
     transition: ease-out all 0.2s;
+    width: 65%;
+    margin-left: 17%;
 }
 
 #parceiros a.link-parceiro:hover{
@@ -156,17 +162,18 @@ body, html{
 #contato-social-box img.logo-instagram{
     width: 30px;
 }
+
 #contato-social-box img.logo-facebook{
     width: 14px;
     margin-left: 10px;
 }
-/*#endregion */
 
 #rodape{
     background-color: var(--secondary-dark);
     padding: 15px;
     color: var(--ligth);
 }
+/*#endregion */
 
 /*#region MAPS*/
 .mapouter {

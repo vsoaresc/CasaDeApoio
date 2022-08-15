@@ -13,6 +13,18 @@
         width: 100%;
     }
 
+    #doacao .doacao-unica{
+        height: 323px;
+    }
+
+    #doacao .doacao-mensal{
+        height: 323px;
+    }
+
+    #doacao .doacao-pix{
+        height: 323px;
+    }
+
 
 }
 
@@ -27,14 +39,29 @@
         margin-right: 15px;
     }
 
+    #parceiros a.link-parceiro{
+        width: 100%;
+        margin-left: 0
+    }
+
     #contato-social-box{
         margin-bottom: 30px;
     }
 
     #logo-contato{
-        max-width: 350px;
-        margin-left: 5px;
-        align-items: center;
-        justify-content: center;
+        max-width: 300px;
+        margin-left: -33px;
+    }
+
+    #doacao .doacao-unica{
+        height: 398px;
+    }
+
+    #doacao .doacao-mensal{
+        height: 398px;
+    }
+
+    #doacao .doacao-pix{
+        height: 398px;
     }
 }
