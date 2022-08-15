@@ -6,6 +6,11 @@ h1,h2,h3,h4,h5,h6{
     text-transform: uppercase;
 }
 
+.title-center{
+    text-transform: uppercase;
+    text-align: center;
+}
+
 .title-contato{
     text-transform: uppercase;
     border-bottom: 2px solid white;
