@@ -5,14 +5,6 @@
         margin-right: 15px;
     }
 
-    #parceiros a.link-parceiro{
-        text-align: center;
-    }
-
-    #logo-contato{
-        width: 100%;
-    }
-
     #doacao .doacao-unica{
         height: 323px;
     }
@@ -25,11 +17,19 @@
         height: 323px;
     }
 
+    #parceiros a.link-parceiro{
+        text-align: center;
+    }
 
+    #logo-contato{
+        width: 100%;
+    }
 }
 
 /* MAX MEDIUM */
 @media (max-width: 991.98px){
+    
+/*#region HEADER*/
     #header .navbar-collapse{
         width: 100%;
     }
@@ -38,6 +38,27 @@
         margin-left: 50px;
         margin-right: 15px;
     }
+/*#endregion */
+
+/*#region DOACAO*/
+    #doacao .doacao-unica{
+        height: 398px;
+    }
+
+    #doacao .doacao-mensal{
+        height: 398px;
+    }
+
+    #doacao .doacao-pix{
+        height: 398px;
+    }
+
+    #doacao .qr-code{
+        margin-left: 25%;
+        margin-top: 40px;
+    }
+
+/*#endregion */
 
     #parceiros a.link-parceiro{
         width: 100%;
@@ -51,17 +72,5 @@
     #logo-contato{
         max-width: 300px;
         margin-left: -10px;
-    }
-
-    #doacao .doacao-unica{
-        height: 398px;
-    }
-
-    #doacao .doacao-mensal{
-        height: 398px;
-    }
-
-    #doacao .doacao-pix{
-        height: 398px;
     }
 }

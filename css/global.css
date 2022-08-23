@@ -17,6 +17,11 @@ h1,h2,h3,h4,h5,h6{
     margin-top: 20px;
 }
 
+.title-white{
+    text-transform: uppercase;
+    color: var(--white);
+}
+
 .subtitle{
     color: var(--medium);
     font-weight: 400;
@@ -28,6 +33,7 @@ h1,h2,h3,h4,h5,h6{
 
 .block-color{
     margin-bottom: 50px;
+    padding-bottom: 3.75rem;
 }
 
 .button{
