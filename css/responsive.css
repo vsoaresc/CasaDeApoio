@@ -5,23 +5,15 @@
         margin-right: 15px;
     }
 
-    #doacao .doacao-unica{
-        height: 323px;
-    }
-
-    #doacao .doacao-mensal{
-        height: 323px;
-    }
-
-    #doacao .doacao-pix{
-        height: 323px;
-    }
-
     #parceiros a.link-parceiro{
         text-align: center;
     }
 
     #logo-contato{
+        width: 120%;
+    }
+
+    #projeto .tour{
         width: 100%;
     }
 }
