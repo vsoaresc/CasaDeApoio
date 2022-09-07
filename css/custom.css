@@ -66,6 +66,12 @@ body, html{
 
 #doacao .title-doacao{
     padding-top: 1.50rem;
+    color: var(--card3);
+}
+
+#doacao .title-doacao h4{
+    font-size: 100%;
+    color: var(--secondary-dark);
 }
 
 #doacao .doacao-pix{
@@ -109,33 +115,52 @@ body, html{
 }
 /*#endregion */
 
-/*region PROJETOS*/
+/*#region PROJETOS*/
 #projeto{
-    background-color: var(--dark);
-    color: var(--white);
+    background-color: var(--ligth-clean);
 }
+
+#projeto .title-projeto{
+    padding-top: 1.50rem;
+    color: var(--card3);
+}
+
+#projeto .conteudo-projeto h4{
+    color: var(--secondary-dark);
+}
+
 #projeto .tour{
     background-color: red;
     width: 100%;
     height: 402px;
 }
 
-#projeto .apelo-ajuda{
-    border: 2px solid #fff;
+#projeto .texto-projeto{
+    border: 2px solid var(--card2);
+    border-radius: 10px;
+    margin-top: 10%;
+    background-color: var(--card2);
+    color: var(--white);
 }
 
-#projeto .apelo-ajuda:hover{
-    border: 2px solid var(--card1);
+#projeto .saiba-como img{
+    width: 20%;
 }
-
-#projeto span:hover{
-    color:red
-};
 
 /*#endregion */
 
 
 /*#region PARCEIROS*/
+#parceiros .title-parceiros{
+    padding-top: 1.50rem;
+    color: var(--card3);
+}
+
+#parceiros .title-parceiros h4{
+    font-size: 100%;
+    color: var(--secondary-dark);
+}
+
 #parceiros a.link-parceiro{
     padding: 0 10px;
     background-color: #fff;

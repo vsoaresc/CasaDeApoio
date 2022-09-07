@@ -11,15 +11,16 @@ h1,h2,h3,h4,h5,h6{
     text-align: center;
 }
 
+.title-white{
+    text-transform: uppercase;
+    color: var(--white);
+    text-align: center;
+}
+
 .title-contato{
     text-transform: uppercase;
     border-bottom: 2px solid white;
     margin-top: 20px;
-}
-
-.title-white{
-    text-transform: uppercase;
-    color: var(--white);
 }
 
 .subtitle{
