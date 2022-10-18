@@ -1,54 +1,54 @@
 /* MIN WIDTH */
-@media (min-width: 992px){
-    #header .nav-link{
+@media (min-width: 992px) {
+    #header .nav-link {
         margin-left: 15px;
         margin-right: 15px;
     }
 
-    #parceiros a.link-parceiro{
+    #parceiros a.link-parceiro {
         text-align: center;
     }
 
-    #logo-contato{
+    #logo-contato {
         width: 120%;
     }
 
-    #projeto .tour{
+    #projeto .tour {
         width: 100%;
     }
 
-    #galeria img{
+    #galeria img {
         padding-right: 10%;
         padding-left: 10%;
     }
 
-    #galeria .img-one{
+    #galeria .img-one {
         width: 273px;
         height: 191px;
     }
 
-    #galeria .img-second{
+    #galeria .img-second {
         width: 273px;
         height: 216px;
     }
 
-    #galeria .img-three{
+    #galeria .img-three {
         width: 273px;
         height: 280px;
     }
 
-    #galeria .img-four{
+    #galeria .img-four {
         width: 273px;
         height: 187px;
         margin-top: 15px;
     }
 
-    #galeria .img-five{
+    #galeria .img-five {
         width: 273px;
         height: 129px;
     }
 
-    #galeria .img-six{
+    #galeria .img-six {
         width: 273px;
         height: 163px;
         margin-top: 15px;
@@ -56,49 +56,58 @@
 }
 
 /* MAX MEDIUM */
-@media (max-width: 991.98px){
-    
-/*#region HEADER*/
-    #header .navbar-collapse{
+@media (max-width: 991.98px) {
+
+    /*#region HEADER*/
+    #header .navbar-collapse {
         width: 100%;
     }
 
-    #header .nav-link{
+    #header .nav-link {
         margin-left: 50px;
         margin-right: 15px;
     }
-/*#endregion */
 
-/*#region DOACAO*/
-    #doacao .doacao-unica{
+    /*#endregion */
+
+    /*#region DOACAO*/
+    #doacao .doacao-unica {
         height: 398px;
     }
 
-    #doacao .doacao-mensal{
+    #doacao .doacao-mensal {
         height: 398px;
     }
 
-    #doacao .doacao-pix{
+    #doacao .doacao-pix {
         height: 398px;
     }
 
-    #doacao .qr-code{
+    #doacao .qr-code {
         width: 50%;
         margin-top: -1px;
     }
 
-/*#endregion */
+    /*#endregion */
 
-    #parceiros a.link-parceiro{
+    #galeria img {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5%;
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    #parceiros a.link-parceiro {
         width: 100%;
         margin-left: 0
     }
 
-    #contato-social-box{
+    #contato-social-box {
         margin-bottom: 30px;
     }
 
-    #logo-contato{
+    #logo-contato {
         max-width: 300px;
         margin-left: -10px;
     }
