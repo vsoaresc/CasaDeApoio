@@ -16,6 +16,43 @@
     #projeto .tour{
         width: 100%;
     }
+
+    #galeria img{
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+
+    #galeria .img-one{
+        width: 273px;
+        height: 191px;
+    }
+
+    #galeria .img-second{
+        width: 273px;
+        height: 216px;
+    }
+
+    #galeria .img-three{
+        width: 273px;
+        height: 280px;
+    }
+
+    #galeria .img-four{
+        width: 273px;
+        height: 187px;
+        margin-top: 15px;
+    }
+
+    #galeria .img-five{
+        width: 273px;
+        height: 129px;
+    }
+
+    #galeria .img-six{
+        width: 273px;
+        height: 163px;
+        margin-top: 15px;
+    }
 }
 
 /* MAX MEDIUM */
