@@ -177,17 +177,11 @@ html {
 
 /*#region GALERIA*/
 #galeria img {
-    border-radius: 70px;
 }
 
 #galeria img:hover{
-    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.15);
-    -webkit-animation-name: fadeIn;
-    animation-name: fadeIn;
-    -webkit-animation-duration: 2s;
-    animation-duration: 2s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
+    animation: myAnim 2s ease 0s 1 normal forwards;
+    animation: myAnim2 1s ease 0s 1 normal forwards;
 }
 
 #galeria .video-galeria{
@@ -212,7 +206,6 @@ html {
 }
 
 #parceiros a.link-parceiro {
-    padding: 0 10px;
     background-color: #fff;
     display: flex;
     align-items: center;
@@ -304,11 +297,24 @@ html {
 
 /*#endregion */
 
-@-webkit-keyframes fadeIn {
-    0% {opacity: 0;}
-    100% {opacity: 1;}
-    }
-    @keyframes fadeIn {
-    0% {opacity: 0;}
-    100% {opacity: 1;}
-    } 
+@keyframes myAnim {
+	0% {
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+	}
+
+	100% {
+		box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+	}
+}
+
+@keyframes myAnim2 {
+	0% {
+		opacity: 0;
+		transform: scale(0.6);
+	}
+
+	100% {
+		opacity: 1;
+		transform: scale(1);
+	}
+}
