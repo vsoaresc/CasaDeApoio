@@ -23,6 +23,16 @@ h1,h2,h3,h4,h5,h6{
     margin-top: 20px;
 }
 
+.title-color {
+    padding-top: 1.50rem;
+    color: var(--card3);
+}
+
+.title-color h4 {
+    font-size: 100%;
+    color: var(--secondary-dark);
+}
+
 .subtitle{
     color: var(--medium);
     font-weight: 400;
@@ -33,7 +43,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .block-color{
-    padding-bottom: 10%;
+    padding-bottom: 7%;
 }
 
 .button{

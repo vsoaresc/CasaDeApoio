@@ -176,9 +176,9 @@ html {
 /*#endregion */
 
 /*#region GALERIA*/
-#galeria {
-    background-color: var(--color6);
-}
+/* #galeria {
+    background-color: var(--color4);
+} */
 
 #galeria .mySlides {
     display: none
